@@ -1,0 +1,66 @@
+.header{
+	line-height: 50px;
+}
+.header .logo{
+	font-size: 1.6rem ;
+	color: #ccc;
+}
+.header .logo a{
+	text-decoration: none;
+	color: #ccc;
+}
+.banner{
+	background: url('../images/france01.jpg') center center no-repeat;
+	overflow: hidden;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.banner .overlay{
+	padding: 270px 0;
+	/*z-index: 1000;*/
+	width: 100%;
+	background: rgba(255, 255, 255,0.4);
+}
+.banner h1 {
+	font-size: 6rem !important;
+}
+
+.content{
+	background: url('../images/france04.jpg') center center no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	overflow: hidden;
+}
+.content .overlay, .content02 .overlay, .content03 .overlay{
+	background: rgba(255, 255, 255, 0.8);
+	width: 100%;
+	padding: 100px 0;
+}
+.content p{
+	line-height: 2rem;
+}
+
+.content02{
+	background: url('../images/con08.jpg') center center no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	overflow: hidden;
+}
+
+.content03{
+	background: url('../images/france03.jpg') center center no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	overflow: hidden;
+}
+.content03 img {
+	width: 300px;
+}
+
+
+
+
+
+
+
+
